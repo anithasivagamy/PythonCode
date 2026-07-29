@@ -1,0 +1,18 @@
+triangle = input("Enter the formula: ")
+a = int(input("Enter measure a:"))
+b = int(input("Enter measure b:"))
+c = int(input("Enter measure c:"))
+
+if triangle == "area":
+    s = (a+b+c)/2
+    area = (s*(s-a)*(s-b)*(s-c))**0.5
+    print("Area of triangle:",area)
+elif triangle == "perimeter":
+    perimeter = a+b+c
+    print("Perimeter of Trianlge:",perimeter)
+else:
+    print("Invalid input")
+
+
+
+
